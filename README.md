@@ -86,6 +86,11 @@ Before testing, you need to pay special attention to the following parameters:
 
 These settings should be consistent with the scale of the target problem and dataset.
 
+If you want to evaluate on **TSPLIB** or **CVRPLIB**, you can directly set `load_path` as:
+
+- `../../../data/tsp/tsplib`
+- `../../../data/vrp/cvrplib-Set-X`
+
 ### `tester_params`
 
 - `path`
